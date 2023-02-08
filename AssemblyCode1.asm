@@ -1,6 +1,6 @@
 data segment 
     chh db 23 dup(?)              
-    chaine1 db 'Taper votre chaine :$'   
+    chaine1 db 'Tapez votre chaine :$'   
     chaine2 db 10,13,'la chaine avant la conversion :$'  
     chaine3 db 10,13,'la chaine apres la conversion:$'
 data ends 
